@@ -460,7 +460,7 @@ except(EOFError, KeyboardInterrupt):
     print("\nStop")
 ```
 
-run_tk_convex.py
+run_tk_convex.py:
 ```
 #!/usr/bin/env -S python3 -B
 from tk_drawer import TkDrawer
@@ -513,10 +513,10 @@ except(EOFError, KeyboardInterrupt):
     tk.close()
 ```
 
-from tkinter import *
-
 tk_drawer.py:
 ```
+from tkinter import *
+
 # Размер окна
 SIZE = 600
 # Коэффициент гомотетии
